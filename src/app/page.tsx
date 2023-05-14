@@ -4,7 +4,7 @@ import { Movie } from '../components/Movie';
 import { MovieProps } from '../interfaces/MovieProps';
 import { AddMovie } from '../components/AddMovie';
 import { FilterMovies } from '../components/FilterMovies';
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 
 export default function Home() {
 

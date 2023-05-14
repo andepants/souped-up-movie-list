@@ -14,7 +14,7 @@ export function Movie({ movie }: { movie: MovieProps; key: number }) {
         <span className="font-bold">Description:</span> {movie.description}
       </p>
       <p className="text-gray-600 mt-2">
-        <span className="font-bold">Watched:</span> {movie.watched}
+        <span className="font-bold">Watched:</span> {movie.watched === 'watched' ? 'Yes' : 'No'}
       </p>
     </div>
   );

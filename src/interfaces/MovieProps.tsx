@@ -3,5 +3,5 @@ export interface MovieProps {
   year: number,
   rating: number,
   description: string,
-  watched: boolean
+  watched: string
 }
