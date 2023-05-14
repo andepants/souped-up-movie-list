@@ -1,12 +1,6 @@
-export interface MovieProps {
-  title: string,
-  year: number,
-  rating: number,
-  description: string,
-  watched: boolean
-}
+import { MovieProps } from "../interfaces/MovieProps";
 
-export function Movie({ movie, key }: { movie: MovieProps; key: number }) {
+export function Movie({ movie }: { movie: MovieProps; key: number }) {
   return (
     <div className="bg-gray-100 rounded-lg p-4 shadow-lg mb-4">
       <h2 className="text-2xl font-bold mb-2">{movie.title}</h2>
